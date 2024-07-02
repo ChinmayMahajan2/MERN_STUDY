@@ -1,5 +1,4 @@
 const fs = require('fs')
-const index = fs.readFileSync('index.html','utf-8')
 const model = require('../Model/product');
 const { default: mongoose } = require('mongoose');
 const Product = model.Product;
